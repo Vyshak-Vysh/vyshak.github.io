@@ -11,7 +11,7 @@
         />
 </router-link>
 
-        <p class="top-text">&nbsp;&nbsp;&nbsp;elif hilal korkut | game developer</p>
+        <p class="top-text">&nbsp;&nbsp;&nbsp;Vyshak V | AR/VR Developer</p>
       </div>
     </section>
     

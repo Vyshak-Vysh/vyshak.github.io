@@ -1,9 +1,9 @@
 {
-  "name": "vyshak.github.io",
+  "name": "Vyshak-Vysh.github.io",
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vyshak.github.io/",
+  "homepage": "https://vyshak-vysh.github.io/",
   "scripts": {
     "dev": "vite --force",
     "build": "vite build",

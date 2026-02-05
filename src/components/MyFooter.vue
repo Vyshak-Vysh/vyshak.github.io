@@ -3,27 +3,27 @@
    
     <ul class="footer-social-links">
       <li>
-        <a href="mailto:elifh.korkut@gmail.com" class="social-btn" aria-label="Email">
+        <a href="mailto:vyshak1705@gmail.com" class="social-btn" aria-label="Email">
           <i class="fa-regular fa-envelope"></i>
         </a>
       </li>
       <li>
-        <a href="https://discord.com/users/elif.korkut#3106" class="social-btn" aria-label="Discord">
-          <i class="fa-brands fa-discord"></i>
+        <a href="tel:+918220373329" class="social-btn" aria-label="Phone">
+          <i class="fa-solid fa-phone"></i>
         </a>
       </li>
       <li>
-        <a href="https://github.com/elifkorkut" class="social-btn" aria-label="GitHub">
+        <a href="https://github.com/Vyshak-Vysh" class="social-btn" aria-label="GitHub">
           <i class="fa-brands fa-github"></i>
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/elifhilalkorkut/" class="social-btn" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/vyshak-v-591101234/" class="social-btn" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
     </ul>
-    <p class="footer-copy">&copy; 2025 Elif Hilal Korkut. All rights reserved.</p>
+    <p class="footer-copy">&copy; 2025 Vyshak V. All rights reserved.</p>
   </footer>
 </template>
 
