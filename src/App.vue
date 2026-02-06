@@ -41,7 +41,7 @@ provide('isLight', isLight)
   <div id="app">
     <button class="theme-toggle-btn" @click="toggleTheme">
       
-      {{ isLight ? '🌙 ' : '☀️' }}
+      {{ isLight ? '🌑 ' : '🌄' }}
     </button>
 
     <Navbar />
