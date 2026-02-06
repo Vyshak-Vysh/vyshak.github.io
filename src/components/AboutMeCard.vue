@@ -9,7 +9,7 @@ export default {
     <div class="about-content">
       <figure class="profile-photo">
         <img
-          src="/images/Futuristic AR_VR developer in action.png"
+          src="public/images/Futuristic AR_VR developer in action.png"
           alt="Vyshak V's Profile Picture"
           class="profile-img"
           loading="lazy"
