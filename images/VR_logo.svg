@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- VR Headset Icon -->
+  <defs>
+    <linearGradient id="vrgradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left lens -->
+  <circle cx="65" cy="100" r="30" fill="none" stroke="url(#vrgradient)" stroke-width="3"/>
+  <!-- Left lens inner glow -->
+  <circle cx="65" cy="100" r="25" fill="#0066ff" opacity="0.2"/>
+  
+  <!-- Right lens -->
+  <circle cx="135" cy="100" r="30" fill="none" stroke="url(#vrgradient)" stroke-width="3"/>
+  <!-- Right lens inner glow -->
+  <circle cx="135" cy="100" r="25" fill="#0066ff" opacity="0.2"/>
+  
+  <!-- Bridge -->
+  <rect x="90" y="90" width="20" height="20" fill="url(#vrgradient)" rx="3"/>
+  
+  <!-- Top strap -->
+  <path d="M50 70 Q100 40 150 70" stroke="url(#vrgradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Bottom strap -->
+  <path d="M50 130 Q100 160 150 130" stroke="url(#vrgradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- VR Text -->
+  <text x="100" y="180" font-size="16" font-weight="bold" text-anchor="middle" fill="url(#vrgradient)" font-family="Arial, sans-serif">VR</text>
+</svg>
