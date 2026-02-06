@@ -26,7 +26,7 @@ export default {
           I enjoy transforming complex ideas into intuitive spatial experiences, blending engineering precision with creative design. My expertise spans from high-fidelity VR & AR environment design to building interactive XR applications from concept to deployment, with a strong focus on performance optimization for mobile and standalone headsets.
         </p>
         <p>
-          Throughout my career, I've worked on diverse XR projects including AI-driven industrial inspection systems using OpenCV, architectural visualization with Unreal Engine, and cross-platform WebXR experiences. Currently pursuing my Bachelor's in Computer Science & Engineering at KPR Institute of Engineering and Technology, I'm combining academic knowledge with practical experience as an AR/VR Developer Intern at IQ TechMax.
+          Throughout my career, I've worked on diverse XR projects including AI-driven industrial inspection systems using OpenCV, architectural visualization with Unreal Engine, and cross-platform WebXR experiences. I'vecompleted my Bachelor's in Computer Science & Engineering at KPR Institute of Engineering and Technology, I am currently working as an AR/VR Developer at IQ TechMax, where I apply academic foundations to deliver production-ready immersive solutions.
         </p>
         <p>
           My technical skillset encompasses XR engines (Unreal Engine, Unity 6), AR frameworks (ARKit, ARCore, Vuforia, AR Foundation), spatial computing, and real-time rendering optimization. I'm particularly passionate about integrating AI and computer vision into AR workflows, delivering production-ready XR solutions for real-world use cases.
