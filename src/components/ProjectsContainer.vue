@@ -64,7 +64,7 @@ import { ref, onMounted, computed } from "vue";
 import { projects } from "../data/projects.js";
 import ProjectCard from "./ProjectCard.vue";
 
-const categories = ["All"];
+const categories = ["All", "Unreal Engine", "Unity", "Blender"];
 const selectedCategory = ref("All");
 const filteredProjects = ref([]);
 const dropdownVisible = ref(false);
@@ -196,10 +196,10 @@ onMounted(() => {
 .projects-grid {
   padding: 20px;
 }
-/* Fixed 5-column grid */
+/* Fixed 4-column grid */
 .five-column-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 .project-card-wrapper {
@@ -211,12 +211,12 @@ onMounted(() => {
 
 /* For extra-large screens */
 @media (min-width: 1800px) {
-  .five-column-grid { grid-template-columns: repeat(5, 1fr); }
+  .five-column-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* For large screens */
 @media (min-width: 1400px) {
-  .five-column-grid { grid-template-columns: repeat(5, 1fr); }
+  .five-column-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 /* For tablets and small desktops */
