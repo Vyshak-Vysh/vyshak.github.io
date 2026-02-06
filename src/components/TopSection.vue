@@ -5,8 +5,8 @@
       <div class="top-content">
         <router-link to="/">
           <img
-          :src="'/images/VR_logo.png'"
-          alt="Logo"
+          :src="'/images/VR_logo.svg'"
+          alt="VR Logo"
           class="top-logo"
         />
 </router-link>
