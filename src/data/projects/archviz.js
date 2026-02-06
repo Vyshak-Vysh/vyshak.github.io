@@ -6,7 +6,7 @@ export default {
     cardImage: '/images/publications/ranwin/cover.png',
     title: 'Ranwin Industrial AR Inspection Project' ,
     role: 'AR Developer',
-    types: ['Industrial AR', 'Large-Scale Assets'],
+    types: ['Industrial AR', 'Large-Scale Assets', 'Unity'],
     shortDescription: 'A large-scale industrial AR inspection project focused on structural accuracy before logistics and transportation using ARKit and Vuforia Model Targets.',
     tags: ['AR', 'ARKit', 'Vuforia', 'Industrial', 'Structural Analysis'],
     link1:[''],
