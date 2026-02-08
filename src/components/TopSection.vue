@@ -27,7 +27,7 @@ const isLight = injected || { value: true }
 
 // Choose logo per theme: light -> VR_logo_B, dark -> VR_logo_W
 const logoSrc = computed(() => {
-  return isLight.value ? '/images/VR_logo_B.png' : '/images/VR_logo_W.png'
+  return isLight.value ? '/images/VR_Pic_B.png' : '/images/VR_Pic_W.png'
 })
  
   </script>
