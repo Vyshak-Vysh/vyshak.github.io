@@ -3,19 +3,9 @@ import archviz from './projects/archviz.js';
 import archvizproj from './projects/archviz-proj.js';
 import metaverse from './projects/metaverse.js';
 import webxr from './projects/webxr.js';
-import downhillbike from './projects/downhillbike.js';
-import findthedifference from './projects/findthedifference.js';
-import heterotopia from './projects/heterotopia.js';
-import holoffice from './projects/holoffice.js';
+import lowpolyassets from './projects/lowpoly-assets.js';
 import ludikid from './projects/ludikid.js';
 import processing from './projects/processing.js';
-import roboko from './projects/roboko.js';
-import sketchrecognition from './projects/sketchrecognition.js';
-import tunnels from './projects/tunnels.js';
-import virtualmuseum from './projects/virtualmuseum.js';
-import visualisationreview from './projects/visualisationreview.js';
-import wretched from './projects/wretched.js';
-import lowpolyassets from './projects/lowpoly-assets.js';
 
 export const projects = [
   arinspection,
@@ -23,19 +13,9 @@ export const projects = [
   archvizproj,
   metaverse,
   webxr,
-  downhillbike,
-  findthedifference,
-  heterotopia,
-  holoffice,
+  lowpolyassets,
   ludikid,
-  processing,
-  roboko,
-  sketchrecognition,
-  tunnels,
-  virtualmuseum,
-  visualisationreview,
-  wretched,
-  lowpolyassets
+  processing
 ].filter(p => p.show !== false);
 
 // Debug: Print all project IDs and titles
