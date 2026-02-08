@@ -5,11 +5,11 @@
       <div class="top-content">
         <router-link to="/">
           <img
-          :src="'/images/VR_logo.svg'"
-          alt="VR Logo"
-          class="top-logo"
-        />
-</router-link>
+            :src="logoSrc"
+            alt="VR Logo"
+            class="top-logo"
+          />
+        </router-link>
 
         <p class="top-text">&nbsp;&nbsp;&nbsp;Vyshak V | AR/VR Developer</p>
       </div>
@@ -19,10 +19,16 @@
   
   <script setup>
 
-import { inject } from 'vue'
+import { inject, computed } from 'vue'
 
-// ✅ inject the reactive theme state from App.vue
-const isLight = inject('isLight')
+// inject the reactive theme state from App.vue (falls back to light)
+const injected = inject('isLight')
+const isLight = injected || { value: true }
+
+// Choose logo per theme: light -> VR_logo_B, dark -> VR_logo_W
+const logoSrc = computed(() => {
+  return isLight.value ? '/images/VR_logo_B.png' : '/images/VR_logo_W.png'
+})
  
   </script>
   
